@@ -39,7 +39,8 @@ Replace `<HOST_IP>` with the host IP address reachable from TDX.
 
 ## Baselines
 
-Run on the host:
+Run CPU_Runtime.py on the host to measure CPU runtime, or inside the TDX VM to measure TDX runtime. 
+Run GPU_Runtime.py on the host to measure GPU runtime.
 
 ```bash
 python3 CPU_Runtime.py
